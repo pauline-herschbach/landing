@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+
+h1, h2 {
+    color: white;
+}
+
+
+h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 25px;
+}
+
+h5 {
+    margin-top: 50px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#id {
+    size: 200px;
+}
+
+.image-container {
+    border: black 1px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+
+

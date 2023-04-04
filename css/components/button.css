@@ -1,0 +1,15 @@
+.btn-pink {
+	background-color: #F7DEEC;
+	padding:10px 20px;
+	border-radius: 10px;
+	color:white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-pink:hover {
+	background-color: #F8E2F5;
+	transform: scale(1.1);
+}
